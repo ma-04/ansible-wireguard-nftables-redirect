@@ -6,6 +6,8 @@ roles/**/files/scratchpad
 .python-version
 .idea/
 .direnv/
+vars.yml
+
 
 # ignore roles pulled by ansible-galaxy
 /roles/galaxy/*

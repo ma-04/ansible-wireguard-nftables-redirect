@@ -1,0 +1,14 @@
+# Ports to forward from Origin to Destination
+forward_ports:
+  - 22
+  - 80
+  - 443
+  - 20022
+  - 8081
+
+# WireGuard Configuration
+wg_interface: wg0
+wg_port: 39612
+wg_network_cidr: 10.93.0.0/24
+origin_wg_ip: 10.93.0.1
+destination_wg_ip: 10.93.0.2
