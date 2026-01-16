@@ -7,7 +7,7 @@ roles/**/files/scratchpad
 .idea/
 .direnv/
 vars.yml
-
+inventory.ini
 
 # ignore roles pulled by ansible-galaxy
 /roles/galaxy/*
